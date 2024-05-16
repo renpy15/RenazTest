@@ -14,28 +14,28 @@ local mouse = game:GetService("Players").LocalPlayer:GetMouse()
 
 library.theme = {
     fontsize = 17,
-    titlesize = 16,
+    titlesize = 18,
     font = Enum.Font.Code,
     background = "rbxassetid://0",
-    tilesize = 80,
+    tilesize = 90,
     cursor = false,
     cursorimg = "https://t0.rbxcdn.com/42f66da98c40252ee151326a82aab51f",
-    backgroundcolor = Color3.fromRGB(40, 42, 54), -- Dracula background
-    tabstextcolor = Color3.fromRGB(255, 121, 198), -- Dracula pink
-    bordercolor = Color3.fromRGB(68, 71, 90), -- Dracula current line
-    accentcolor = Color3.fromRGB(255, 121, 198), -- Dracula pink
-    accentcolor2 = Color3.fromRGB(189, 147, 249), -- Dracula purple
-    outlinecolor = Color3.fromRGB(40, 42, 54), -- Dracula background
-    outlinecolor2 = Color3.fromRGB(68, 71, 90), -- Dracula current line
-    sectorcolor = Color3.fromRGB(40, 42, 54), -- Dracula background
-    toptextcolor = Color3.fromRGB(248, 248, 242), -- Dracula foreground
+    backgroundcolor = Color3.fromRGB(23, 23, 23), -- Dark background
+    tabstextcolor = Color3.fromRGB(0, 200, 255), -- NeverLose Blue
+    bordercolor = Color3.fromRGB(0, 200, 255), -- NeverLose Blue
+    accentcolor = Color3.fromRGB(0, 200, 255), -- NeverLose Blue
+    accentcolor2 = Color3.fromRGB(0, 150, 200), -- Slightly darker blue for accents
+    outlinecolor = Color3.fromRGB(23, 23, 23), -- Dark background
+    outlinecolor2 = Color3.fromRGB(34, 34, 34), -- Slightly lighter background
+    sectorcolor = Color3.fromRGB(23, 23, 23), -- Dark background
+    toptextcolor = Color3.fromRGB(255, 255, 255), -- White text
     topheight = 48,
-    topcolor = Color3.fromRGB(40, 42, 54), -- Dracula background
-    topcolor2 = Color3.fromRGB(68, 71, 90), -- Dracula current line
-    buttoncolor = Color3.fromRGB(68, 71, 90), -- Dracula current line
-    buttoncolor2 = Color3.fromRGB(98, 114, 164), -- Dracula selection
-    itemscolor = Color3.fromRGB(248, 248, 242), -- Dracula foreground
-    itemscolor2 = Color3.fromRGB(255, 184, 108) -- Dracula orange
+    topcolor = Color3.fromRGB(23, 23, 23), -- Dark background
+    topcolor2 = Color3.fromRGB(34, 34, 34), -- Slightly lighter background
+    buttoncolor = Color3.fromRGB(30, 30, 30), -- Slightly lighter for buttons
+    buttoncolor2 = Color3.fromRGB(40, 40, 40), -- Even lighter for button hover/press
+    itemscolor = Color3.fromRGB(200, 200, 200), -- Light grey for items
+    itemscolor2 = Color3.fromRGB(255, 255, 255), -- White for highlighted items
 }
 
 if library.theme.cursor then

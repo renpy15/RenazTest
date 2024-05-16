@@ -20,22 +20,22 @@ library.theme = {
     tilesize = 90,
     cursor = false,
     cursorimg = "https://t0.rbxcdn.com/42f66da98c40252ee151326a82aab51f",
-    backgroundcolor = Color3.fromRGB(24, 24, 24), -- Adjusted to a darker gray
-    tabstextcolor = Color3.fromRGB(30, 215, 96), -- Spotify Green
-    bordercolor = Color3.fromRGB(30, 215, 96), -- Spotify Green
-    accentcolor = Color3.fromRGB(30, 215, 96), -- Spotify Green
-    accentcolor2 = Color3.fromRGB(30, 215, 96), -- Spotify Green
-    outlinecolor = Color3.fromRGB(24, 24, 24), -- Adjusted to a darker gray
-    outlinecolor2 = Color3.fromRGB(30, 30, 30), -- Adjusted to a slightly lighter gray
-    sectorcolor = Color3.fromRGB(24, 24, 24), -- Adjusted to a darker gray
-    toptextcolor = Color3.fromRGB(255, 255, 255),
+    backgroundcolor = Color3.fromRGB(17, 17, 17), -- Dark background
+    tabstextcolor = Color3.fromRGB(0, 170, 255), -- Gamesneeze Blue
+    bordercolor = Color3.fromRGB(255, 0, 0), -- Gamesneeze Red
+    accentcolor = Color3.fromRGB(0, 170, 255), -- Gamesneeze Blue
+    accentcolor2 = Color3.fromRGB(255, 0, 0), -- Gamesneeze Red
+    outlinecolor = Color3.fromRGB(17, 17, 17), -- Dark background
+    outlinecolor2 = Color3.fromRGB(34, 34, 34), -- Slightly lighter background
+    sectorcolor = Color3.fromRGB(17, 17, 17), -- Dark background
+    toptextcolor = Color3.fromRGB(255, 255, 255), -- White
     topheight = 48,
-    topcolor = Color3.fromRGB(24, 24, 24), -- Adjusted to a darker gray
-    topcolor2 = Color3.fromRGB(30, 30, 30), -- Adjusted to a slightly lighter gray
-    buttoncolor = Color3.fromRGB(24, 24, 24), -- Adjusted to a darker gray
-    buttoncolor2 = Color3.fromRGB(30, 30, 30), -- Adjusted to a slightly lighter gray
-    itemscolor = Color3.fromRGB(255, 255, 255), -- Adjusted to white
-    itemscolor2 = Color3.fromRGB(255, 255, 255) -- Adjusted to white
+    topcolor = Color3.fromRGB(17, 17, 17), -- Dark background
+    topcolor2 = Color3.fromRGB(34, 34, 34), -- Slightly lighter background
+    buttoncolor = Color3.fromRGB(17, 17, 17), -- Dark background
+    buttoncolor2 = Color3.fromRGB(34, 34, 34), -- Slightly lighter background
+    itemscolor = Color3.fromRGB(255, 255, 255), -- White
+    itemscolor2 = Color3.fromRGB(255, 255, 255) -- White
 }
 
 if library.theme.cursor then
